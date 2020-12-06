@@ -6,16 +6,16 @@ This example demonstrates how to run a sample Python script. It covers the follo
    4. How to check the output
    
 # Setup 
-To obtain necessary files : either clone this repository or directly download the data and codes.
+To obtain necessary files : either clone this repository or directly download the data and the codes.
 
 # Useful commands
-To load module : `module load [module]`
-To list loaded modules : `module list`
-To submit the job : `sbatch [submission_script.sh]` 
-To check job status : `squeue` or `sacct`
-To check resource usage : `sbalance`
+To load module : `module load [module]`  
+To list loaded modules : `module list`  
+To submit the job : `sbatch [submission_script.sh]`  
+To check job status : `squeue` or `sacct`  
+To check resource usage : `sbalance`  
 
 
 # Reference
 ## Data
-The Titanic data set is taken from [Kaggle dataset : Titaic](https://www.kaggle.com/heptapod/titanic). The some columns were removed. 
+The Titanic data set is taken from [Kaggle dataset : Titanic](https://www.kaggle.com/heptapod/titanic). The some columns were removed. 
