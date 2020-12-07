@@ -8,22 +8,22 @@
 
 module purge                        # unload all modules as they may have previously been loaded.
 
-# uncomment the below line to use Python
+# uncomment the below line to use Python (option 1)
 #module load Python/3.7.4-GCCcore-8.3.0
 
-# uncomment the below line to use Singularity
+# uncomment the below line to use Singularity (option 2 or 3)
 #module load Singularity                   # Load the module that you want to use. This example is intel
 
 # ------  Run your program or executable code ------
 # uncomment set of specific lines to use an appropriate commands
-#option 1 : using 
+#option 1 : using Python/3.7.4-GCCcore-8.3.0
 #python check_opencv2.py
 
-#option 2 : using 
-#echo "Run using original Tensorflow image (tensorflow_nightly-gpu.sif)"
-#singularity exec tensorflow_nightly-gpu.sif python3 check_opencv2.py
+#option 2 : using original Singularity image
+#echo "Run using original Tensorflow image (tensorflow_2.1.2-gpu.sif)"
+#singularity exec tensorflow_2.1.2-gpu.sif python3 check_opencv2.py
 
-#option 3 : using 
+#option 3 : using customized Singularity image
 #echo "Run using customized Tensorflow image (my_TF.sif)"
 #singularity exec my_TF.sif python3 check_opencv2.py
 
