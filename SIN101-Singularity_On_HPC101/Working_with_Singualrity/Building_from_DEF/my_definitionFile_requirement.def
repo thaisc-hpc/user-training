@@ -4,6 +4,6 @@ From: tensorflow/tensorflow:2.2.1-gpu
      requirement.txt
 %post
     apt-get -y update
-    apt-get -y install libgl
+    apt-get -y install libgl-dev
     pip install --upgrade pip
     pip install -r requirement.txt
