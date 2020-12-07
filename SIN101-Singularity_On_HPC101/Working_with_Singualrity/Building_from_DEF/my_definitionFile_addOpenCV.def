@@ -3,6 +3,6 @@ From: tensorflow/tensorflow:2.2.1-gpu
 
 %post
     apt-get -y update
-    apt-get -y install libgl
+    apt-get -y install libgl-dev
     pip install --upgrade pip
     pip install opencv-python
