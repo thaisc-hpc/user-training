@@ -13,6 +13,6 @@ This repository contain ..
   
   
 ## Reference
-1. 
+1. https://stackoverflow.com/questions/38559755/how-to-get-current-available-gpus-in-tensorflow
 2.
 3.
