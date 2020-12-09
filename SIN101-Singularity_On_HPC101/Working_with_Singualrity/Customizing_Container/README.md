@@ -21,5 +21,3 @@ $ sudo singualrity shell --writable my_TF
 > exit
 $ sudo singularity build my_TF.sif my_TF/
 ```
-
-```
