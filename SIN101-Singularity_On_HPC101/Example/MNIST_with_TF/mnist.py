@@ -1,11 +1,18 @@
-# code is taken from https://www.tensorflow.org/tutorials/keras/classification
+# this code is taken from https://www.tensorflow.org/tutorials/keras/classification 
+# the code was modified to using pre-downloaded data instead of downloading from the API.
 # Tensorflow version 2.3.1
 
 import tensorflow as tf
 import numpy as np
 
 fashion_mnist = tf.keras.datasets.fashion_mnist
-(train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
+#(train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
+
+with open('mnist_data.npy', 'rb') as f: 
+    train_images = np.load(f)
+    train_labels = np.load(f)
+    test_images = np.load(f)
+    test_labels = np.load(f)
 
 class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
                'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
