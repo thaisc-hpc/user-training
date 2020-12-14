@@ -1,4 +1,4 @@
-# user-training
+# User Training
 Materials for HPC user training 
 
 ## Set up
