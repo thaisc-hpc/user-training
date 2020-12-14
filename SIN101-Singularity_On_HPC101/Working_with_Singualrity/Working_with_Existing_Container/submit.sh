@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -p dgx-preempt                       # Specify the partition or machine type used [Compute/Memory/GPU]
+#SBATCH -p gpu                       # Specify the partition or machine type used [Compute/Memory/GPU]
 #SBATCH -N 1  --ntasks-per-node=40   # Specify the number of nodes and the number of core per node
 #SBATCH -t 00:10:00                  # Specifies the maximum time limit (hour: minute: second)
 #SBATCH -J SIN101                    # Specify the name of the Job
@@ -21,7 +21,7 @@ echo "  "
 
 #To run check_library.py using Singularity SIF
 echo " -- running check_library.py using Singularity SIF --"
-srun singularity exec tf.sif python check_library.py
+singularity exec tf.sif python check_library.py
 
 echo "  "
 echo " ---------------------------------------------------------------------"
@@ -30,7 +30,7 @@ echo "  "
 
 #To run the scrpit WITHOUT using GPU(s)
 echo " -- checking GPU(s) (WITHOUT --nv option)  --"
-srun singularity exec tf.sif python check_gpu.py                # Run your program or executable code
+singularity exec tf.sif python check_av_gpu.py                # Run your program or executable code
 
 echo "  "
 echo " ---------------------------------------------------------------------"
@@ -39,5 +39,5 @@ echo "  "
 
 #To run the scrpit WITH using GPU(s)
 echo " -- checking GPU(s) (WITH --nv option)  --"
-srun singularity exec --nv tf.sif python check_gpu.py
+singularity exec --nv tf.sif python check_av_gpu.py
 
