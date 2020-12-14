@@ -1,0 +1,8 @@
+Hi, guys.
+You can copy me to a given destination using 
+
+cp [my_name] [my_destination]
+
+For example, to copy `copy_me.txt` in current directory to my_subfolder_2 directory
+
+cp copy_me.txt ../my_subfolder_2 
