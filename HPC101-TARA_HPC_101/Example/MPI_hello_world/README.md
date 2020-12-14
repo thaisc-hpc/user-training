@@ -1,10 +1,10 @@
-# MPI Hello
+# MPI Hello world
 
 This example demonstrates how to run a MPI job by running MPI Hello World from [MPI tutorial : MPI Hello World](https://mpitutorial.com/tutorials/mpi-hello-world/). 
 
 Plesae note that **instead of using MPICH2, we use OpenMPI 3.1.4.**
 
-# Run MPI hello on TARA
+## Run MPI hello on TARA
 1. load `foss` module 
 ```
 module load foss
@@ -16,7 +16,7 @@ mpicc -o mpi_hello_world mpi_hello_world.c
 ```
 
 3. prepare sbatch script  
-specify the following commands in `submit.sh`
+To create sbatch script, specify the following commands in `submit.sh`
 ```
 #!/bin/bash
 #SBATCH -p compute
