@@ -1,5 +1,7 @@
-# User Training
+# User Training -- under construction
 Materials for HPC user training 
+
+**NOTE -- This repository is under construction.**
 
 ## Set up
 
