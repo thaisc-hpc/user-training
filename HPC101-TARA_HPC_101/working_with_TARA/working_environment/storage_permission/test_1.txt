@@ -1,1 +1,1 @@
-chmod 774 test_1.txt
+chmod u=rwx,g=rwx,o=r test_1.txt
