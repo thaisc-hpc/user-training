@@ -5,10 +5,10 @@ This example demonstrates how to run a sample Python script. It covers the follo
    3. How to check resource usage
    4. How to check the output
    
-# Setup 
+## Setup 
 To obtain necessary files : either clone this repository or directly download the data and the codes.
 
-# Useful commands
+## Useful commands
 To load module : `module load [module]`  
 To list loaded modules : `module list`  
 To submit the job : `sbatch [submission_script.sh]`  
@@ -16,6 +16,5 @@ To check job status : `squeue` or `sacct`
 To check resource usage : `sbalance`  
 
 
-# Reference
-## Data
+## Reference
 The Titanic data set is taken from [Kaggle dataset : Titanic](https://www.kaggle.com/heptapod/titanic). The some columns were removed. 
