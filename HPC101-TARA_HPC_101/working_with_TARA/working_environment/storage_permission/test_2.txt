@@ -1,1 +1,1 @@
-chomd 740 test_2.txt
+chmod 740 test_2.txt
