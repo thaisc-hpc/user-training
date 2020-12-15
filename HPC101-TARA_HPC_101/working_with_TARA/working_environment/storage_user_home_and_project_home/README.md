@@ -5,7 +5,7 @@ Located at : `/tarafs/data/home/[username]`
 For example, /tarafs/data/home/hpcuser1 .
 
 ## Project Home
-Located at : `/tarafs/data/project/[projxxxx-shorname]`   
+Located at : `/tarafs/data/project/[projxxxx-shortname]`   
 For example, /tarafs/data/project/train001-training .  
 
 ## To check available space
