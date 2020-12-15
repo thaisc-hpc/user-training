@@ -8,10 +8,10 @@
 |`mkdir [dir]`| create new directory named `[dir]`|
 |`cp [options] [src] [des]`| copy file or directory from `[src]` to `[des]`|
 |`mv [src] [des]`| move file or directory from `[src]` to `[des]` and can be used for rename|
-|`cat [file]`| print out entire content of file|
-|`less [file]`| incremental display content of file |
-|`head [file]`| print out first 10 lines of file |
-|`tail [file]`| print out last 10 lines of file |
+|`cat [file]`| print out entire content of `[file]`|
+|`less [file]`| incremental display content of `[file]` |
+|`head [file]`| print out first 10 lines of `[file]` |
+|`tail [file]`| print out last 10 lines of `[file]` |
 
 # Useful resources
 1. [Ubuntu tutorials : command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
