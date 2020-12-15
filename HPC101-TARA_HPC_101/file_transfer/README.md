@@ -1,6 +1,12 @@
 # File Transfer
 
-# Windows
+## Windows
+
+SFTP cilent such as MobaXterm, FileZilla, or WinSCP. 
 
 
-# Linux or macOS
+## Linux or macOS
+
+```
+scp [scp options] [source] [destination]
+```
