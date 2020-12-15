@@ -14,4 +14,4 @@
 |`tail [file]`| print out last 10 lines of file |
 
 # Useful resources
-1. [Ubuntu tutorials](https://ubuntu.com/tutorials)
+1. [Ubuntu tutorials : command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
