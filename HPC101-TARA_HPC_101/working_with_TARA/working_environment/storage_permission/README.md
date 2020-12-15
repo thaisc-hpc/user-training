@@ -19,8 +19,18 @@ drwxr-xr-x 2 hpcuser2 tarausers 4096 Dec 15 09:45 test_dir_2
 | 8nd | file/directory name | 
   
 For above example,
-The owner (user) is *hpcuser2*. The group is *tarausers*. The permissions are `-rw-r--r--` or `drwxr-xr-x`.
+The owner (user) is *hpcuser2*. The group is *tarausers*. The permissions are `-rw-r--r--` or `drwxr-xr-x`.  
 
+### Permssion code
+The fist letter is type (- : regular files, d : directory, l : symbolic link, p : pipe, s : socket, b : block device, c : character device, D : Doors).  
+The next 3 letters is the permission of *user (owner)*.  
+The another next 3 letters is the permission of *group* (i.e. uesrs in the group).  
+The last 3 letters is the permission of *other* (i.e. other users).  
+  
+### Example,  
+`-rw-r--r--` is a regular file that user (owner) can read and write, users in the group (here is tarausers) and other users can only read.  
+`drwxr-xr-x` is a directory that user (owner) can read, write and execute, users in the group (here is tarausers) and other users can read and execute. Note that, for directory, write premissin includes add/remove file/sub-directory insite the directory. 
+  
 # To change permission 
 ## Command
 ```
@@ -49,3 +59,32 @@ chmod [option] [file or dir]
 | o | other |
 | a | all |
 
+### Example 
+To set r (read), w (write) and x (execute) permission to users and group and set only r (read) permission to other users.
+```
+-rw-r--r-- 1 hpcuser2 tarausers   21 Dec 15 09:37 test_1.txt
+$ chmod u=rwx,g=rwx,o=r test_1.txt
+-rwxrwxr-- 1 hpcuser2 tarausers   21 Dec 15 09:37 test_1.txt
+```
+Alternatively, we can use `chmod 774 test_1.txt`, where the first digit apply to user, second digit apply to group, and the third digit apply to others. The 7 is the summation of 4+2+1 which is stand for rwx. 4 is stand for r.  
+  
+  
+To set r (read), w (write) and x (execute) permission to users and not grant any permission to group and others.  
+```
+-rw-r--r-- 1 hpcuser2 tarausers   21 Dec 15 09:37 test_2.txt
+$ chmod 740 test_2.txt
+-rwxr----- 1 hpcuser2 tarausers   21 Dec 15 09:37 test_2.txt
+```
+To remove r (read) permission from other users.  
+```
+-rw-r--r-- 1 hpcuser2 tarausers   22 Dec 15 09:37 test_3.txt
+$ chmod o-r test_3.txt
+-rw-r----- 1 hpcuser2 tarausers   22 Dec 15 09:37 test_3.txt
+```
+
+To add s (sticky bit : preserve file perrmison for all files/directoris created in this directory), w (write) permission for group to file or directory.   
+```
+drwxr-xr-x 2 hpcuser2 tarausers 4096 Dec 15 09:45 test_dir_1
+$ chmod g+sw test_dir_1/
+drwxrwsr-x 2 hpcuser2 tarausers 4096 Dec 15 09:45 test_dir_1
+```
