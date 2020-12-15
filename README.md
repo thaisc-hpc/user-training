@@ -1,7 +1,7 @@
 # User Training -- under construction
 Materials for HPC user training 
 
-Note: all materials are in English.  
+Note: all materials are in English, but teachings are in Thai.  
 
 ## Courses
 1. [High Performance Computing: TARA HPC 101 (HPC101)](https://mooc.learn.in.th/main/courses)
