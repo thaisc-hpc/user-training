@@ -18,7 +18,7 @@ submit.sh
 #SBATCH -N 1  --ntasks-per-node=40   # Specify the number of nodes and the number of core per node
 #SBATCH -t 00:10:00                  # Specifies the maximum time limit (hour: minute: second)
 #SBATCH -J my_job                    # Specify the name of the Job
-#SBATCH  -A tutorial                 # Specify Project account which will be received after Register ** If you do not specify in this section, the job will not be able to run.
+#SBATCH -A projxxxx                 # Specify Project account which will be received after Register ** If you do not specify in this section, the job will not be able to run.
 #SBATCH                              # You can specify additional options.
 
 module purge                         # unload all modules as they may have previously been loaded.
