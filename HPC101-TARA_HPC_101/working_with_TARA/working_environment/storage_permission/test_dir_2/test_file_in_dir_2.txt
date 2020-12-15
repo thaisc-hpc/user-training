@@ -1,0 +1,1 @@
+chmod 777 file_in_dir_2.txt
