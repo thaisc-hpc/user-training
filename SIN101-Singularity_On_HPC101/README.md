@@ -11,7 +11,7 @@ This course covers the following content :
 * Building a container from the sigularity definition file
 * Running job with GPU(s)
 
-*Currently, the course mainly focus on AI application. The examples of applications in others field will be added later.* 
+*Currently, the course mainly focus on AI application. The examples of applications in other fields will be added later.* 
 
 This course **DOES NOT** include an TARA account.
 
