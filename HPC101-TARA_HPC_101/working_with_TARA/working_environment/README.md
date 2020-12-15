@@ -1,7 +1,7 @@
 # TARA Working Environment
 
 ## Operating System
-- Linux (CenOS)
+- Linux (CentOS)
 
 ## Software management
 - Module system using Lmod
