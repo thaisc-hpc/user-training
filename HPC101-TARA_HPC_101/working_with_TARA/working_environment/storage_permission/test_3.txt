@@ -1,1 +1,1 @@
-chmod g+sw test_3.txt
+chmod o-r test_3.txt
