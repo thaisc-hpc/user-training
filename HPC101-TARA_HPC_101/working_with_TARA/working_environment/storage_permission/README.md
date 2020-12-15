@@ -21,6 +21,7 @@ drwxr-xr-x 2 hpcuser2 tarausers 4096 Dec 15 09:45 test_dir_2
 For above example,
 The owner (user) is *hpcuser2*. The group is *tarausers*. The permissions are `-rw-r--r--` or `drwxr-xr-x`.
 
+# To change permission 
 ## Command
 ```
 chmod [option] [file or dir]
