@@ -1,1 +1,1 @@
-chmod 744 file_in_dir_1.txt
+chmod g+sw test_dir_1/
