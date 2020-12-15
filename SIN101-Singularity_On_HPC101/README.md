@@ -1,9 +1,19 @@
 # About this repository  
 
-This repository contain ..  
+This repository contains materials for [SIN101 : Singularity on HPC 101](mooc.learn.in.th), the fisrt course in the Singularity on HPC series. 
 
-**This is a part of [SIN101 : Singularity on HPC 101](mooc.learn.in.th)**  
+**Requirement** : a Linux machine or VM, superuser (sudoer) account on that Linux machine or VM, Basic Linux.  
 
+This course covers the following content :
+
+* Running job with an exiting container on TARA
+* Customizing a container
+* Building a container from the sigularity definition file
+* Running job with GPU(s)
+
+*Currently, the course mainly focus on AI application. The examples of applications in others field will be added later.* 
+
+This course **DOES NOT** include an TARA account.
 
 # Useful links
 - Document "Bring your own Python environment to TARA using Singularity container (focus on AI application with GPU)" : [PDF](https://drive.google.com/file/d/12KzywNQe2lpTacXCWPIeudlvGoFKrpBi/view)  
@@ -12,7 +22,3 @@ This repository contain ..
 - NVIDIA NGC : [https://ngc.nvidia.com/](https://ngc.nvidia.com/catalog/collections)  
   
   
-## Reference
-1. https://stackoverflow.com/questions/38559755/how-to-get-current-available-gpus-in-tensorflow
-2.
-3.
