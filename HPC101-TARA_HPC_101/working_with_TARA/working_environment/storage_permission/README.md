@@ -21,15 +21,15 @@ drwxr-xr-x 2 hpcuser2 tarausers 4096 Dec 15 09:45 test_dir_2
 For above example,
 The owner (user) is *hpcuser2*. The group is *tarausers*. The permissions are `-rw-r--r--` or `drwxr-xr-x`.  
 
-### Permssion code
-The fist letter is type (- : regular files, d : directory, l : symbolic link, p : pipe, s : socket, b : block device, c : character device, D : Doors).  
+### Permission code
+The first letter is type (- : regular files, d : directory, l : symbolic link, p : pipe, s : socket, b : block device, c : character device, D : Doors).  
 The next 3 letters is the permission of *user (owner)*.  
 The another next 3 letters is the permission of *group* (i.e. uesrs in the group).  
 The last 3 letters is the permission of *other* (i.e. other users).  
   
 ### Example,  
 `-rw-r--r--` is a regular file that user (owner) can read and write, users in the group (here is tarausers) and other users can only read.  
-`drwxr-xr-x` is a directory that user (owner) can read, write and execute, users in the group (here is tarausers) and other users can read and execute. Note that, for directory, write premissin includes add/remove file/sub-directory insite the directory. 
+`drwxr-xr-x` is a directory that user (owner) can read, write and execute, users in the group (here is `tarausers`) and other users can read and execute. Note that, for directory, write permission includes add/remove file/sub-directory inside the directory. 
   
 # To change permission 
 ## Command
@@ -82,7 +82,7 @@ $ chmod o-r test_3.txt
 -rw-r----- 1 hpcuser2 tarausers   22 Dec 15 09:37 test_3.txt
 ```
 
-To add s (sticky bit : preserve file perrmison for all files/directoris created in this directory), w (write) permission for group to file or directory.   
+To add s (sticky bit : preserve file permission for all files/directoris created in this directory), w (write) permission for group to file or directory.   
 ```
 drwxr-xr-x 2 hpcuser2 tarausers 4096 Dec 15 09:45 test_dir_1
 $ chmod g+sw test_dir_1/
