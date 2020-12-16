@@ -13,5 +13,5 @@
 |`head [file]`| print out first 10 lines of `[file]` |
 |`tail [file]`| print out last 10 lines of `[file]` |
 
-# Useful resources
+# Useful resource
 1. [Ubuntu tutorials : command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
