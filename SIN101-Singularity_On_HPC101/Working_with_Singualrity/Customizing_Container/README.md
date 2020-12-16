@@ -9,7 +9,7 @@ Steps to customizing container :
 7. Build the new SIF from the sandbox : `singularity build <newSIF> <sandbox_dir>`
 
 ## Example
-Adding OpenCV library in the Tensorflow 2.2.1-gpu image from Docker hub. 
+Adding OpenCV library in the Tensorflow 2.1.2-gpu image from Docker hub. 
 ```
 $ singularity pull docker://tensorflow/tensorflow:2.1.2-gpu
 $ sudo singularity build --sandbox my_TF/ tensorflow_2.1.2-gpu.sif
