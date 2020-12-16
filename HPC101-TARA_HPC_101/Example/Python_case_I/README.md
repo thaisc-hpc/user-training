@@ -11,10 +11,10 @@ To obtain necessary files : either clone this repository or directly download th
 ## Useful commands
 To load module : `module load [module]`  
 To list loaded modules : `module list`  
-To submit the job : `sbatch [submission_script.sh]`  
+To submit job : `sbatch [submission_script.sh]`  
 To check job status : `squeue` or `sacct`  
 To check resource usage : `sbalance`  
 
 
 ## Reference
-The Titanic data set is taken from [Kaggle dataset : Titanic](https://www.kaggle.com/heptapod/titanic). The some columns were removed. 
+The Titanic data set is taken from [Kaggle dataset : Titanic](https://www.kaggle.com/heptapod/titanic). Please note that some columns were removed. 
