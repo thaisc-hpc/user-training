@@ -25,11 +25,11 @@
 | `i` | switch to INSERT mode |
 |`esc` | switch to NORMAL mode |
 |`dd` | delete (or cut) |
-|`p` | paste. (use after using `dd` for cut|
+|`p` | paste (use after using `dd` for cut|
 |`u` | undo |
 |`CTRL−R` | redo |
 |`gg` | go to the top line |
-|`G` | go to the bottom line |
+|`G` or `shift+g` | go to the bottom line |
 
 **Note :** commands are executed in the NORMAL mode.
 
