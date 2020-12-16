@@ -26,8 +26,8 @@ The permissions are `-rw-r--r--` or `drwxr-xr-x`.
 ### Permission code
 The first letter is type (- : regular files, d : directory, l : symbolic link, p : pipe, s : socket, b : block device, c : character device, D : Doors).  
 The next 3 letters is the permission of *user (owner)*.  
-The another next 3 letters is the permission of *group* (i.e. uesrs in the group).  
-The last 3 letters is the permission of *other* (i.e. other users).  
+The another next 3 letters is the permission of *group*, *i.e.* uesrs in the group.  
+The last 3 letters is the permission of *other*, *i.e.* other users.  
   
 ### Example,  
 `-rw-r--r--` is a regular file that user (owner) can read and write, users in the group (here is tarausers) and other users can only read.  
