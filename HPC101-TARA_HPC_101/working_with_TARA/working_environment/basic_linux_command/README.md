@@ -14,5 +14,31 @@
 |`rm [options][file/dir]`| remove file or directory|  
 
 
-# Useful resource
+## Useful resource
+
 1. [Ubuntu tutorials : command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
+
+# Text editors
+## 1. Vim  
+| command | description  | 
+|---:|:---|
+| `i` | switch to INSERT mode |
+|`esc` | switch to NORMAL mode |
+|`dd` | delete (or cut) |
+|`p` | paste. (use after using `dd` for cut|
+|`u` | undo |
+|`CTRL−R` | redo |
+|`gg` | go to the top line |
+|`G` | go to the bottom line |
+
+**Note :** commands are executed in the NORMAL mode.
+
+## Useful resources
+
+1. Learniing Vim while playing a game : [VIM adventures](https://vim-adventures.com)
+2. Officail website : [https://www.vim.org](https://www.vim.org)
+3. User manual : [VIM User Manual](http://www.eandem.co.uk/mrw/vim/usr_doc/index.html) 
+
+
+
+
