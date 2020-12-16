@@ -19,7 +19,7 @@ To check job status : `squeue` or `sacct`
 To check resource usage : `sbalance`
 
 
-## Run MPI hello on TARA
+## Run MPI Hello World on TARA
 1. load `foss` module 
 ```
 module load foss
