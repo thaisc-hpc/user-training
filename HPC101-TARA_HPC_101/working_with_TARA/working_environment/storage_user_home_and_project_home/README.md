@@ -2,11 +2,11 @@
  
 ## User Home
 Located at : `/tarafs/data/home/[username]`  
-For example, /tarafs/data/home/hpcuser1 .
+For example, the location of hpcuser1 is /tarafs/data/home/hpcuser1 .
 
 ## Project Home
 Located at : `/tarafs/data/project/[projxxxx-shortname]`   
-For example, /tarafs/data/project/train001-training .  
+For example, the location for project home of train001-training is /tarafs/data/project/train001-training .  
 
 ## To check available space
 Execute `myquota` command, it will print out space usage and quota.
