@@ -7,12 +7,15 @@ Plesae note that **instead of MPICH2, we use OpenMPI 3.1.4.**
 ## Useful commands
 
 To load module : `module load [module]`
+
 To list loaded modules : `module list`
 
 To run mpi code : `srun [your mpi code]`
 
 To submit job : `sbatch [submission_script.sh]`
+
 To check job status : `squeue` or `sacct`
+
 To check resource usage : `sbalance`
 
 
