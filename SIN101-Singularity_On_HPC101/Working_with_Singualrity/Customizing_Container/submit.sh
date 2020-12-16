@@ -3,7 +3,7 @@
 #SBATCH -N 1  --ntasks-per-node=1   # Specify the number of nodes and the number of core per node
 #SBATCH -t 00:10:00                 # Specifies the maximum time limit (hour: minute: second)
 #SBATCH -J SIN101                   # Specify the name of the Job
-#SBATCH -A train001                 # Specify Project account which will be received after Register ** If you do not specify in this section, the job will not be able to run.
+#SBATCH -A train001                 # Specify project account which will be received after register ** If you do not specify in this section, the job will not be able to run.
 #SBATCH                             # You can specify additional options.
 
 module purge                        # unload all modules as they may have previously been loaded.
@@ -12,7 +12,7 @@ module purge                        # unload all modules as they may have previo
 #module load Python/3.7.4-GCCcore-8.3.0
 
 # uncomment the below line to use Singularity (option 2 or 3)
-#module load Singularity                   # Load the module that you want to use. This example is intel
+#module load Singularity                   # Load the module that you want to use.
 
 # ------  Run your program or executable code ------
 # uncomment set of specific lines to use an appropriate commands
