@@ -84,9 +84,9 @@ $ chmod o-r test_3.txt
 -rw-r----- 1 hpcuser2 tarausers   22 Dec 15 09:37 test_3.txt
 ```
 
-To add s (sticky bit : preserve file permission for all files/directoris created in this directory), w (write) permission for group to file or directory.   
+To add w (write) permission for group to file or directory.   
 ```
 drwxr-xr-x 2 hpcuser2 tarausers 4096 Dec 15 09:45 test_dir_1
-$ chmod g+sw test_dir_1/
+$ chmod g+w test_dir_1/
 drwxrwsr-x 2 hpcuser2 tarausers 4096 Dec 15 09:45 test_dir_1
 ```
