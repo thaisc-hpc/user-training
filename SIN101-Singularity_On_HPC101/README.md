@@ -13,7 +13,7 @@ This course covers the following content :
 
 *Currently, the course mainly focus on AI application. The examples of applications in other fields will be added later.* 
 
-This course **DOES NOT** include an TARA account.
+This course **DOES NOT** include how to retrieve an account for TARA.
 
 # Useful links
 - Document "Bring your own Python environment to TARA using Singularity container (focus on AI application with GPU)" : [PDF](https://drive.google.com/file/d/12KzywNQe2lpTacXCWPIeudlvGoFKrpBi/view)  
