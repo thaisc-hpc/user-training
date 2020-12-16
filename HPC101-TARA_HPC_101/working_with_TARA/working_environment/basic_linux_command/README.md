@@ -1,4 +1,4 @@
-# Basic Linux Command
+# Basic Linux Commands
 | command | description  | 
 |---:|:---|
 |`pwd`| show the path of the current directory |
