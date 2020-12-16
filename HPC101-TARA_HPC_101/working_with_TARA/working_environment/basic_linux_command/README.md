@@ -27,7 +27,7 @@
 |`dd` | delete (or cut) |
 |`p` | paste (use after using `dd` for cut|
 |`u` | undo |
-|`CTRL−R` | redo |
+|`CTRL+shift+r` | redo |
 |`gg` | go to the top line |
 |`G` or `shift+g` | go to the bottom line |
 
