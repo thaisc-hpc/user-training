@@ -1,12 +1,12 @@
 # About this repository  
 
-This repository contains materials for [SIN101 : Singularity on HPC 101](mooc.learn.in.th), the fisrt course in the Singularity on HPC series. 
+This repository contains materials for [SIN101 : Singularity on HPC 101](mooc.learn.in.th), the first course in the Singularity on HPC series. 
 
-**Requirement** : a Linux machine or VM, superuser (sudoer) account on that Linux machine or VM, Basic Linux.  
+**Requirement** : a Linux machine or VM, superuser (sudoer) account on that Linux machine or VM, Basic Linux understanding.  
 
 This course covers the following content :
 
-* Running job with an exiting container on TARA
+* Running job with an existing container on TARA
 * Customizing a container
 * Building a container from the sigularity definition file
 * Running job with GPU(s)
