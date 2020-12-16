@@ -38,7 +38,7 @@ The last 3 letters is the permission of *other* (i.e. other users).
 ```
 chmod [option] [file or dir]
 ```
-## chmod option --set a permission 
+## chmod option --set permission 
 
 | permission | action | option (letter) | option (number)|
 |:---:|:---:|:---:|:---:|
