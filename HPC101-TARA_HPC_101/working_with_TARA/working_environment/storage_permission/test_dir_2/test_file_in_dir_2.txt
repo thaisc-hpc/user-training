@@ -1,1 +1,2 @@
 chmod 777 file_in_dir_2.txt
+Can you guess the reasons why user should not set the permission to 777?
