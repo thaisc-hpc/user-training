@@ -34,7 +34,7 @@ To run the job in the interactive mode. It is important to note that
 2. The interactive session requires X-server. (If this is not set, you will see *srun: error: No DISPLAY variable set, cannot setup x11 forwarding.*)  
    * For Windows, MobaXterm has built-in X-server. If you use MobaXterm, no additional action required. If you use other SSH cilent, please install X-server software and (if applicable) instruct your SSH cilent to use X11 forwarding.  
    * For macOS, please ensure that XQuartz is installed and ssh with either -X or -Y option.  
-   * For Linux, please ensure that with either -X or -Y option.  
+   * For Linux, please ensure that ssh commnad is executed with either -X or -Y option.  
    
 ```
 sinteract [options]
@@ -43,5 +43,5 @@ By default, sinteract specifies 1 node with 1 core in devel partition with 30 mi
 
 **For example**, to specify 1 node with 40 cores in compute partition using train001 account with 1 hour maximum time limit. 
 ```
-sinteract -A train001 -N 1 -n 40 -p compute -A train001 -t 01:00:00
+sinteract -N 1 -n 40 -p compute -A train001 -t 01:00:00
 ```
