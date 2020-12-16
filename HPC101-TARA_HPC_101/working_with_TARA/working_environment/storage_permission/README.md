@@ -18,8 +18,10 @@ drwxr-xr-x 2 hpcuser2 tarausers 4096 Dec 15 09:45 test_dir_2
 | 5th to 7th | last modified date and time |
 | 8th | file/directory name | 
   
-For above example,
-The owner (user) is *hpcuser2*. The group is *tarausers*. The permissions are `-rw-r--r--` or `drwxr-xr-x`.  
+For the above example,
+The owner (user) is *hpcuser2*. 
+The group is *tarausers*. 
+The permissions are `-rw-r--r--` or `drwxr-xr-x`.  
 
 ### Permission code
 The first letter is type (- : regular files, d : directory, l : symbolic link, p : pipe, s : socket, b : block device, c : character device, D : Doors).  
