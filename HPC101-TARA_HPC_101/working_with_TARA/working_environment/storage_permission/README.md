@@ -14,9 +14,9 @@ drwxr-xr-x 2 hpcuser2 tarausers 4096 Dec 15 09:45 test_dir_2
 | 1st | file or directory permission |
 | 2nd | owner (user) |
 | 3rd | group that file/directory is belong to |
-| 4nd | file size (Byte) |
-| 5nd to 7nd | last modified date and time |
-| 8nd | file/directory name | 
+| 4th | file size (Byte) |
+| 5th to 7th | last modified date and time |
+| 8th | file/directory name | 
   
 For above example,
 The owner (user) is *hpcuser2*. The group is *tarausers*. The permissions are `-rw-r--r--` or `drwxr-xr-x`.  
