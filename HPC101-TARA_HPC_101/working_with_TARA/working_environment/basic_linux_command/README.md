@@ -30,6 +30,9 @@
 |`CTRL+shift+r` | redo |
 |`gg` | go to the top line |
 |`G` or `shift+g` | go to the bottom line |
+|`:w` | save |
+|`:q` | quit |
+|`:wq` | save and quit|
 
 **Note :** commands are executed in the NORMAL mode.
 
