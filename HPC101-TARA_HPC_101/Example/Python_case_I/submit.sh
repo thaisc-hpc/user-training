@@ -9,5 +9,5 @@
 module purge
 module load Python/3.7.4-GCCcore-8.3.0 
 
-python titanic_caseI.py 
+python titanic_case_I.py 
 
