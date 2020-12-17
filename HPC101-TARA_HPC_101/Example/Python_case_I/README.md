@@ -1,9 +1,10 @@
 # Overview
 This example demonstrates how to run a sample Python script. It covers the following topics:
-   1. How to setup submission script (almost from scratch)
-   2. How to submit the job
-   3. How to check resource usage
-   4. How to check the output
+   1. How to transfer file from local PC to TARA
+   2. How to setup submission script (almost from scratch)
+   3. How to install local library
+   4. How to submit the job
+   5. How to check the output
    
 ## Setup 
 To obtain necessary files : either clone this repository or directly download the data and the codes.
