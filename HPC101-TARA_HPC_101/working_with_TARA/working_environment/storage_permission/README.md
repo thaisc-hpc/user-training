@@ -88,5 +88,5 @@ To add w (write) permission for group to file or directory.
 ```
 drwxr-xr-x 2 hpcuser2 tarausers 4096 Dec 15 09:45 test_dir_1
 $ chmod g+w test_dir_1/
-drwxrwsr-x 2 hpcuser2 tarausers 4096 Dec 15 09:45 test_dir_1
+drwxrwxr-x 2 hpcuser2 tarausers 4096 Dec 15 09:45 test_dir_1
 ```
