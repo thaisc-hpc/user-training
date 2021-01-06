@@ -30,7 +30,7 @@ echo "  "
 
 #To run the scrpit WITHOUT using GPU(s)
 echo " -- checking GPU(s) (WITHOUT --nv option)  --"
-singularity exec tf.sif python check_av_gpu.py                # Run your program or executable code
+singularity exec tf.sif nvidia-smi                # Run your program or executable code
 
 echo "  "
 echo " ---------------------------------------------------------------------"
@@ -39,5 +39,5 @@ echo "  "
 
 #To run the scrpit WITH using GPU(s)
 echo " -- checking GPU(s) (WITH --nv option)  --"
-singularity exec --nv tf.sif python check_av_gpu.py
+singularity exec --nv tf.sif nvidia-smi
 
